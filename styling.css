@@ -10,8 +10,8 @@
 .container{
     background-color:var(--back-color);
     display: grid;  
-    grid-template-columns: 120px 1fr 40px 4fr 120px;
-    grid-template-rows:80px 200px 40px 1fr 40px 170px 40px;
+    grid-template-columns: 120px 1fr 40px 4fr 80px;
+    grid-template-rows:80px 200px 40px 1fr 40px 170px 20px;
 }
 .about{
     grid-column:2 / span 3 ;
