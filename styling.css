@@ -153,13 +153,13 @@ p.date{
     font-size: 20px;
 
 }
-@media screen and (max-width:400px){
+@media (max-width:400px){
     .container{
         width:400px;
         background-color:var(--back-color);
         display: grid;  
         grid-template-columns: 10px auto 20px 300px 10px;
-        grid-template-rows:20px 100px 40px 1fr 40px 260px 10px;
+        grid-template-rows:20px 100px 40px 1fr 40px 280px 10px;
     }
     .about{width: 350px;
 
